@@ -1,0 +1,291 @@
+WARNING:tensorflow:From /tensorflow-1.15.2/python3.6/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:75: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(64, (1, 1), activation="relu", name="inception_1_/1x1", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:77: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(96, (1, 1), activation="relu", name="inception_1_/3x3_reduce", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:79: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(128, (3, 3), activation="relu", name="inception_1_/3x3", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:81: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(16, (1, 1), activation="relu", name="inception_1_/5x5_reduce", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:83: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(32, (5, 5), activation="relu", name="inception_1_/5x5", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:85: UserWarning: Update your `MaxPooling2D` call to the Keras 2 API: `MaxPooling2D(pool_size=(3, 3), strides=(1, 1), name="inception_1_/pool", padding="same")`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:87: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(32, (1, 1), activation="relu", name="inception_1_/pool_proj", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:75: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(128, (1, 1), activation="relu", name="inception_2_/1x1", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:77: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(128, (1, 1), activation="relu", name="inception_2_/3x3_reduce", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:79: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(192, (3, 3), activation="relu", name="inception_2_/3x3", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:81: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(32, (1, 1), activation="relu", name="inception_2_/5x5_reduce", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:83: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(96, (5, 5), activation="relu", name="inception_2_/5x5", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:85: UserWarning: Update your `MaxPooling2D` call to the Keras 2 API: `MaxPooling2D(pool_size=(3, 3), strides=(1, 1), name="inception_2_/pool", padding="same")`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:87: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(64, (1, 1), activation="relu", name="inception_2_/pool_proj", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:75: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(192, (1, 1), activation="relu", name="inception_3_/1x1", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:77: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(96, (1, 1), activation="relu", name="inception_3_/3x3_reduce", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:79: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(208, (3, 3), activation="relu", name="inception_3_/3x3", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:81: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(16, (1, 1), activation="relu", name="inception_3_/5x5_reduce", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:83: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(48, (5, 5), activation="relu", name="inception_3_/5x5", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:85: UserWarning: Update your `MaxPooling2D` call to the Keras 2 API: `MaxPooling2D(pool_size=(3, 3), strides=(1, 1), name="inception_3_/pool", padding="same")`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:87: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(64, (1, 1), activation="relu", name="inception_3_/pool_proj", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:75: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(160, (1, 1), activation="relu", name="inception_4_/1x1", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:77: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(112, (1, 1), activation="relu", name="inception_4_/3x3_reduce", padding="same", kernel_regularizer=<keras.reg...)`
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:4074: The name tf.nn.avg_pool is deprecated. Please use tf.nn.avg_pool2d instead.
+
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:79: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(224, (3, 3), activation="relu", name="inception_4_/3x3", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:81: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(24, (1, 1), activation="relu", name="inception_4_/5x5_reduce", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:83: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(64, (5, 5), activation="relu", name="inception_4_/5x5", padding="same", kernel_regularizer=<keras.reg...)`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:85: UserWarning: Update your `MaxPooling2D` call to the Keras 2 API: `MaxPooling2D(pool_size=(3, 3), strides=(1, 1), name="inception_4_/pool", padding="same")`
+/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:87: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(64, (1, 1), activation="relu", name="inception_4_/pool_proj", padding="same", kernel_regularizer=<keras.reg...)`
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+input (InputLayer)              (None, 32, 32, 3)    0                                            
+__________________________________________________________________________________________________
+inception_1_/3x3_reduce (Conv2D (None, 32, 32, 96)   384         input[0][0]                      
+__________________________________________________________________________________________________
+inception_1_/5x5_reduce (Conv2D (None, 32, 32, 16)   64          input[0][0]                      
+__________________________________________________________________________________________________
+inception_1_/pool (MaxPooling2D (None, 32, 32, 3)    0           input[0][0]                      
+__________________________________________________________________________________________________
+inception_1_/1x1 (Conv2D)       (None, 32, 32, 64)   256         input[0][0]                      
+__________________________________________________________________________________________________
+inception_1_/3x3 (Conv2D)       (None, 32, 32, 128)  110720      inception_1_/3x3_reduce[0][0]    
+__________________________________________________________________________________________________
+inception_1_/5x5 (Conv2D)       (None, 32, 32, 32)   12832       inception_1_/5x5_reduce[0][0]    
+__________________________________________________________________________________________________
+inception_1_/pool_proj (Conv2D) (None, 32, 32, 32)   128         inception_1_/pool[0][0]          
+__________________________________________________________________________________________________
+inception_1_/output (Concatenat (None, 32, 32, 256)  0           inception_1_/1x1[0][0]           
+                                                                 inception_1_/3x3[0][0]           
+                                                                 inception_1_/5x5[0][0]           
+                                                                 inception_1_/pool_proj[0][0]     
+__________________________________________________________________________________________________
+inception_1_/output_norm (Batch (None, 32, 32, 256)  1024        inception_1_/output[0][0]        
+__________________________________________________________________________________________________
+inception_1_2x2subsample (MaxPo (None, 16, 16, 256)  0           inception_1_/output_norm[0][0]   
+__________________________________________________________________________________________________
+inception_2_/3x3_reduce (Conv2D (None, 16, 16, 128)  32896       inception_1_2x2subsample[0][0]   
+__________________________________________________________________________________________________
+inception_2_/5x5_reduce (Conv2D (None, 16, 16, 32)   8224        inception_1_2x2subsample[0][0]   
+__________________________________________________________________________________________________
+inception_2_/pool (MaxPooling2D (None, 16, 16, 256)  0           inception_1_2x2subsample[0][0]   
+__________________________________________________________________________________________________
+inception_2_/1x1 (Conv2D)       (None, 16, 16, 128)  32896       inception_1_2x2subsample[0][0]   
+__________________________________________________________________________________________________
+inception_2_/3x3 (Conv2D)       (None, 16, 16, 192)  221376      inception_2_/3x3_reduce[0][0]    
+__________________________________________________________________________________________________
+inception_2_/5x5 (Conv2D)       (None, 16, 16, 96)   76896       inception_2_/5x5_reduce[0][0]    
+__________________________________________________________________________________________________
+inception_2_/pool_proj (Conv2D) (None, 16, 16, 64)   16448       inception_2_/pool[0][0]          
+__________________________________________________________________________________________________
+inception_2_/output (Concatenat (None, 16, 16, 480)  0           inception_2_/1x1[0][0]           
+                                                                 inception_2_/3x3[0][0]           
+                                                                 inception_2_/5x5[0][0]           
+                                                                 inception_2_/pool_proj[0][0]     
+__________________________________________________________________________________________________
+inception_2_/output_norm (Batch (None, 16, 16, 480)  1920        inception_2_/output[0][0]        
+__________________________________________________________________________________________________
+inception_2_2x2subsample (MaxPo (None, 8, 8, 480)    0           inception_2_/output_norm[0][0]   
+__________________________________________________________________________________________________
+inception_3_/3x3_reduce (Conv2D (None, 8, 8, 96)     46176       inception_2_2x2subsample[0][0]   
+__________________________________________________________________________________________________
+inception_3_/5x5_reduce (Conv2D (None, 8, 8, 16)     7696        inception_2_2x2subsample[0][0]   
+__________________________________________________________________________________________________
+inception_3_/pool (MaxPooling2D (None, 8, 8, 480)    0           inception_2_2x2subsample[0][0]   
+__________________________________________________________________________________________________
+inception_3_/1x1 (Conv2D)       (None, 8, 8, 192)    92352       inception_2_2x2subsample[0][0]   
+__________________________________________________________________________________________________
+inception_3_/3x3 (Conv2D)       (None, 8, 8, 208)    179920      inception_3_/3x3_reduce[0][0]    
+__________________________________________________________________________________________________
+inception_3_/5x5 (Conv2D)       (None, 8, 8, 48)     19248       inception_3_/5x5_reduce[0][0]    
+__________________________________________________________________________________________________
+inception_3_/pool_proj (Conv2D) (None, 8, 8, 64)     30784       inception_3_/pool[0][0]          
+__________________________________________________________________________________________________
+inception_3_/output (Concatenat (None, 8, 8, 512)    0           inception_3_/1x1[0][0]           
+                                                                 inception_3_/3x3[0][0]           
+                                                                 inception_3_/5x5[0][0]           
+                                                                 inception_3_/pool_proj[0][0]     
+__________________________________________________________________________________________________
+inception_3_/output_norm (Batch (None, 8, 8, 512)    2048        inception_3_/output[0][0]        
+__________________________________________________________________________________________________
+inception_3_2x2subsample (MaxPo (None, 4, 4, 512)    0           inception_3_/output_norm[0][0]   
+__________________________________________________________________________________________________
+inception_4_/3x3_reduce (Conv2D (None, 4, 4, 112)    57456       inception_3_2x2subsample[0][0]   
+__________________________________________________________________________________________________
+inception_4_/5x5_reduce (Conv2D (None, 4, 4, 24)     12312       inception_3_2x2subsample[0][0]   
+__________________________________________________________________________________________________
+inception_4_/pool (MaxPooling2D (None, 4, 4, 512)    0           inception_3_2x2subsample[0][0]   
+__________________________________________________________________________________________________
+inception_4_/1x1 (Conv2D)       (None, 4, 4, 160)    82080       inception_3_2x2subsample[0][0]   
+__________________________________________________________________________________________________
+inception_4_/3x3 (Conv2D)       (None, 4, 4, 224)    226016      inception_4_/3x3_reduce[0][0]    
+__________________________________________________________________________________________________
+inception_4_/5x5 (Conv2D)       (None, 4, 4, 64)     38464       inception_4_/5x5_reduce[0][0]    
+__________________________________________________________________________________________________
+inception_4_/pool_proj (Conv2D) (None, 4, 4, 64)     32832       inception_4_/pool[0][0]          
+__________________________________________________________________________________________________
+inception_4_/output (Concatenat (None, 4, 4, 512)    0           inception_4_/1x1[0][0]           
+                                                                 inception_4_/3x3[0][0]           
+                                                                 inception_4_/5x5[0][0]           
+                                                                 inception_4_/pool_proj[0][0]     
+__________________________________________________________________________________________________
+inception_4_/output_norm (Batch (None, 4, 4, 512)    2048        inception_4_/output[0][0]        
+__________________________________________________________________________________________________
+inception_4_2x2subsample (MaxPo (None, 2, 2, 512)    0           inception_4_/output_norm[0][0]   
+__________________________________________________________________________________________________
+average_pooling2d_1 (AveragePoo (None, 1, 1, 512)    0           inception_4_2x2subsample[0][0]   
+__________________________________________________________________________________________________
+flatten_1 (Flatten)             (None, 512)          0           average_pooling2d_1[0][0]        
+__________________________________________________________________________________________________
+dense_1_128 (Dense)             (None, 128)          65664       flatten_1[0][0]                  
+__________________________________________________________________________________________________
+dense_1_128drop (Dropout)       (None, 128)          0           dense_1_128[0][0]                
+__________________________________________________________________________________________________
+dense_1_128norm (BatchNormaliza (None, 128)          512         dense_1_128drop[0][0]            
+__________________________________________________________________________________________________
+dense_2_64 (Dense)              (None, 64)           8256        dense_1_128norm[0][0]            
+__________________________________________________________________________________________________
+dense_2_64drop (Dropout)        (None, 64)           0           dense_2_64[0][0]                 
+__________________________________________________________________________________________________
+dense_2_64norm (BatchNormalizat (None, 64)           256         dense_2_64drop[0][0]             
+__________________________________________________________________________________________________
+dense_1 (Dense)                 (None, 10)           650         dense_2_64norm[0][0]             
+==================================================================================================
+Total params: 1,420,834
+Trainable params: 1,416,930
+Non-trainable params: 3,904
+__________________________________________________________________________________________________
+Saved model to../models/cifar10-nrcrt7-04:40PM_May-08-2020.json
+
+WARNING:tensorflow:From /tensorflow-1.15.2/python3.6/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+Train on 40000 samples, validate on 10000 samples
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/callbacks/tensorboard_v1.py:200: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/callbacks/tensorboard_v1.py:203: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+Epoch 1/100
+40000/40000 [==============================] - 82s 2ms/step - loss: 0.9786 - accuracy: 0.9078 - val_loss: 0.5475 - val_accuracy: 0.9000
+
+Epoch 00001: val_loss improved from inf to 0.54750, saving model to ./models/cifar10-nrcrt7-04:40PM_May-08-2020.hdf5
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/callbacks/tensorboard_v1.py:343: The name tf.Summary is deprecated. Please use tf.compat.v1.Summary instead.
+
+Epoch 2/100
+40000/40000 [==============================] - 72s 2ms/step - loss: 0.3377 - accuracy: 0.9300 - val_loss: 0.3393 - val_accuracy: 0.9153
+
+Epoch 00002: val_loss improved from 0.54750 to 0.33929, saving model to ./models/cifar10-nrcrt7-04:40PM_May-08-2020.hdf5
+Epoch 3/100
+40000/40000 [==============================] - 72s 2ms/step - loss: 0.2591 - accuracy: 0.9399 - val_loss: 0.3167 - val_accuracy: 0.9171
+
+Epoch 00003: val_loss improved from 0.33929 to 0.31674, saving model to ./models/cifar10-nrcrt7-04:40PM_May-08-2020.hdf5
+Epoch 4/100
+40000/40000 [==============================] - 71s 2ms/step - loss: 0.2296 - accuracy: 0.9467 - val_loss: 0.2469 - val_accuracy: 0.9363
+
+Epoch 00004: val_loss improved from 0.31674 to 0.24687, saving model to ./models/cifar10-nrcrt7-04:40PM_May-08-2020.hdf5
+Epoch 5/100
+40000/40000 [==============================] - 71s 2ms/step - loss: 0.2144 - accuracy: 0.9502 - val_loss: 0.3080 - val_accuracy: 0.9187
+
+Epoch 00005: val_loss did not improve from 0.24687
+Epoch 6/100
+40000/40000 [==============================] - 71s 2ms/step - loss: 0.2049 - accuracy: 0.9531 - val_loss: 0.2228 - val_accuracy: 0.9451
+
+Epoch 00006: val_loss improved from 0.24687 to 0.22281, saving model to ./models/cifar10-nrcrt7-04:40PM_May-08-2020.hdf5
+Epoch 7/100
+40000/40000 [==============================] - 71s 2ms/step - loss: 0.1969 - accuracy: 0.9556 - val_loss: 0.2417 - val_accuracy: 0.9368
+
+Epoch 00007: val_loss did not improve from 0.22281
+Epoch 8/100
+40000/40000 [==============================] - 71s 2ms/step - loss: 0.1887 - accuracy: 0.9582 - val_loss: 0.2677 - val_accuracy: 0.9297
+
+Epoch 00008: val_loss did not improve from 0.22281
+Epoch 9/100
+40000/40000 [==============================] - 71s 2ms/step - loss: 0.1846 - accuracy: 0.9602 - val_loss: 0.1874 - val_accuracy: 0.9575
+
+Epoch 00009: val_loss improved from 0.22281 to 0.18743, saving model to ./models/cifar10-nrcrt7-04:40PM_May-08-2020.hdf5
+Epoch 10/100
+40000/40000 [==============================] - 71s 2ms/step - loss: 0.1789 - accuracy: 0.9621 - val_loss: 0.2336 - val_accuracy: 0.9437
+
+Epoch 00010: val_loss did not improve from 0.18743
+Epoch 11/100
+40000/40000 [==============================] - 72s 2ms/step - loss: 0.1765 - accuracy: 0.9624 - val_loss: 0.2677 - val_accuracy: 0.9331
+
+Epoch 00011: val_loss did not improve from 0.18743
+Epoch 12/100
+40000/40000 [==============================] - 72s 2ms/step - loss: 0.1687 - accuracy: 0.9649 - val_loss: 0.2325 - val_accuracy: 0.9402
+
+Epoch 00012: val_loss did not improve from 0.18743
+Epoch 13/100
+40000/40000 [==============================] - 72s 2ms/step - loss: 0.1663 - accuracy: 0.9661 - val_loss: 0.2548 - val_accuracy: 0.9369
+
+Epoch 00013: val_loss did not improve from 0.18743
+Epoch 14/100
+40000/40000 [==============================] - 72s 2ms/step - loss: 0.1645 - accuracy: 0.9666 - val_loss: 0.1929 - val_accuracy: 0.9553
+
+Epoch 00014: val_loss did not improve from 0.18743
+Epoch 15/100
+40000/40000 [==============================] - 71s 2ms/step - loss: 0.1309 - accuracy: 0.9777 - val_loss: 0.1438 - val_accuracy: 0.9702
+
+Epoch 00015: val_loss improved from 0.18743 to 0.14383, saving model to ./models/cifar10-nrcrt7-04:40PM_May-08-2020.hdf5
+Epoch 16/100
+40000/40000 [==============================] - 72s 2ms/step - loss: 0.1107 - accuracy: 0.9828 - val_loss: 0.1400 - val_accuracy: 0.9698
+
+Epoch 00016: val_loss improved from 0.14383 to 0.13995, saving model to ./models/cifar10-nrcrt7-04:40PM_May-08-2020.hdf5
+Epoch 17/100
+40000/40000 [==============================] - 72s 2ms/step - loss: 0.0990 - accuracy: 0.9856 - val_loss: 0.1350 - val_accuracy: 0.9705
+
+Epoch 00017: val_loss improved from 0.13995 to 0.13503, saving model to ./models/cifar10-nrcrt7-04:40PM_May-08-2020.hdf5
+Epoch 18/100
+40000/40000 [==============================] - 71s 2ms/step - loss: 0.0906 - accuracy: 0.9874 - val_loss: 0.1329 - val_accuracy: 0.9709
+
+Epoch 00018: val_loss improved from 0.13503 to 0.13293, saving model to ./models/cifar10-nrcrt7-04:40PM_May-08-2020.hdf5
+Epoch 19/100
+40000/40000 [==============================] - 71s 2ms/step - loss: 0.0834 - accuracy: 0.9892 - val_loss: 0.1320 - val_accuracy: 0.9704
+
+Epoch 00019: val_loss improved from 0.13293 to 0.13199, saving model to ./models/cifar10-nrcrt7-04:40PM_May-08-2020.hdf5
+Epoch 20/100
+40000/40000 [==============================] - 71s 2ms/step - loss: 0.0768 - accuracy: 0.9910 - val_loss: 0.1343 - val_accuracy: 0.9700
+
+Epoch 00020: val_loss did not improve from 0.13199
+Epoch 21/100
+40000/40000 [==============================] - 72s 2ms/step - loss: 0.0713 - accuracy: 0.9925 - val_loss: 0.1347 - val_accuracy: 0.9701
+
+Epoch 00021: val_loss did not improve from 0.13199
+Epoch 22/100
+40000/40000 [==============================] - 72s 2ms/step - loss: 0.0664 - accuracy: 0.9936 - val_loss: 0.1358 - val_accuracy: 0.9693
+
+Epoch 00022: val_loss did not improve from 0.13199
+Epoch 23/100
+40000/40000 [==============================] - 72s 2ms/step - loss: 0.0617 - accuracy: 0.9951 - val_loss: 0.1394 - val_accuracy: 0.9693
+
+Epoch 00023: val_loss did not improve from 0.13199
+Epoch 24/100
+40000/40000 [==============================] - 72s 2ms/step - loss: 0.0580 - accuracy: 0.9959 - val_loss: 0.1413 - val_accuracy: 0.9689
+
+Epoch 00024: val_loss did not improve from 0.13199
+Epoch 25/100
+40000/40000 [==============================] - 72s 2ms/step - loss: 0.0533 - accuracy: 0.9977 - val_loss: 0.1384 - val_accuracy: 0.9699
+
+Epoch 00025: val_loss did not improve from 0.13199
+Epoch 26/100
+40000/40000 [==============================] - 71s 2ms/step - loss: 0.0516 - accuracy: 0.9981 - val_loss: 0.1389 - val_accuracy: 0.9700
+
+Epoch 00026: val_loss did not improve from 0.13199
+Epoch 27/100
+40000/40000 [==============================] - 72s 2ms/step - loss: 0.0507 - accuracy: 0.9983 - val_loss: 0.1388 - val_accuracy: 0.9699
+
+Epoch 00027: val_loss did not improve from 0.13199
+Epoch 28/100
+40000/40000 [==============================] - 72s 2ms/step - loss: 0.0501 - accuracy: 0.9985 - val_loss: 0.1391 - val_accuracy: 0.9699
+
+Epoch 00028: val_loss did not improve from 0.13199
+Epoch 29/100
+40000/40000 [==============================] - 71s 2ms/step - loss: 0.0494 - accuracy: 0.9986 - val_loss: 0.1404 - val_accuracy: 0.9699
+
+Epoch 00029: val_loss did not improve from 0.13199
+Epoch 00029: early stopping
+10000/10000 [==============================] - 8s 815us/step
+Accuracy on test set:  96.87296748161316 %
+
+10000/10000 [==============================] - 8s 794us/step
+[0.13478883649110793, 0.9691197276115417]
